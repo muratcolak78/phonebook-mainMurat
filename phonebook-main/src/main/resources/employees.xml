@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employees>
+    <employeeMap>
+        <entry>
+            <key>2</key>
+            <value>
+                <name>colak</name>
+                <surname>murat</surname>
+                <birthday>01.01.1989</birthday>
+                <address>adress2 </address>
+                <telephoneNumber>01762222</telephoneNumber>
+            </value>
+        </entry>
+        <entry>
+            <key>3</key>
+            <value>
+                <name>göztas</name>
+                <surname>kenan</surname>
+                <birthday>01.02.1993</birthday>
+                <address>adress3 </address>
+                <telephoneNumber>01763333</telephoneNumber>
+            </value>
+        </entry>
+        <entry>
+            <key>4</key>
+            <value>
+                <name>yusufi</name>
+                <surname>namatullah</surname>
+                <birthday>01.02.1994</birthday>
+                <address>adress4</address>
+                <telephoneNumber>01764444</telephoneNumber>
+            </value>
+        </entry>
+    </employeeMap>
+</employees>
