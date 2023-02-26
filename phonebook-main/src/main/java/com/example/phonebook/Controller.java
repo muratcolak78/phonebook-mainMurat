@@ -4,27 +4,19 @@ package com.example.phonebook;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
@@ -310,15 +302,14 @@ public class Controller implements Initializable {
         jaxbMarshaller.marshal(empMap, System.out);
         jaxbMarshaller.marshal(empMap, new File("C:\\Users\\murat\\Downloads\\phonebook-main\\phonebook-main\\src\\main\\resources\\com\\example\\phonebook\\employees6.xml"));
 
-        //Gson json = new Gson();
-        Gson
-        String response = json.toJson(empMap);
+     //   Gson json = new Gson();
+     //   String response = json.toJson(empMap);
 
 
-        FileWriter fileWriter=new FileWriter("C:\\Users\\murat\\Downloads\\phonebook-main\\phonebook-main\\src\\main\\resources\\deneme.json");
+     //   FileWriter fileWriter=new FileWriter("C:\\Users\\murat\\Downloads\\phonebook-main\\phonebook-main\\src\\main\\resources\\deneme.json");
 
-        fileWriter.write(response);
-        fileWriter.close();
+     //   fileWriter.write(response);
+     //   fileWriter.close();
 
     }
 

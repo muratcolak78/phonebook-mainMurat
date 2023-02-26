@@ -5,7 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import javax.xml.bind.JAXBException;
 import java.io.IOException;
 
 public class MainClass extends Application {
@@ -18,7 +17,7 @@ public class MainClass extends Application {
         stage.show();
     }
 
-    public static void main() throws JAXBException, IOException {
+    public static void main() throws IOException {
         launch();
 
        // Controller controller=new Controller();
